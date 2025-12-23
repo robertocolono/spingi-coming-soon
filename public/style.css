@@ -69,17 +69,11 @@ body {
 }
 
 /* Logo */
-.logo-container {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    width: 200px;
-    height: 80px;
-    filter: drop-shadow(0 4px 12px rgba(0, 102, 255, 0.2));
+.main-logo {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 32px;
 }
 
 /* Titolo */
@@ -215,11 +209,6 @@ body {
         padding: 1rem 0.5rem;
     }
     
-    .logo {
-        width: 160px;
-        height: 64px;
-    }
-    
     .features {
         margin-bottom: 3rem;
     }
@@ -247,11 +236,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .logo {
-        width: 140px;
-        height: 56px;
-    }
-    
     .title {
         margin-bottom: 0.75rem;
     }
@@ -262,7 +246,6 @@ body {
 }
 
 /* Performance optimizations */
-.logo,
 .title,
 .subtitle,
 .features,
